@@ -1,0 +1,26 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: datosAPI
+  Type: BaseObjectType
+  Children:
+  - Name: URL
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "http://127.0.0.1:1880/plc"
+  - Name: URL1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "http://127.0.0.1:8086/api/v2/write?org=Rockwell&bucket=XAVIER&precision=s"
+  - Name: data_raw
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "plc_data,host=host1 IoT_data=2324"
+  - Name: API_Token
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B6r6bbdjetzcnItfnGBVdQ71CZ6_3-3mJZZPVotm2wd3EpGgzrHW8agJqZaAp7wPuIcp-JlWppWcB_f2BtjaRQ=="
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
